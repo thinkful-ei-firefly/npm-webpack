@@ -209,3 +209,5 @@ const shoppingList = (function(){
     bindEventListeners: bindEventListeners,
   };
 }());
+
+export default shoppingList;

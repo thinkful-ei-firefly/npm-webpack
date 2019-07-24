@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 // eslint-disable-next-line no-unused-vars
-const store = (function(){
+const store = (function() {
   const setError = function(error) {
     this.error = error;
   };
@@ -39,7 +39,7 @@ const store = (function(){
     items: [],
     error: null,
     hideCheckedItems: false,
-    searchTerm: '',
+    searchTerm: "",
 
     addItem,
     setError,
@@ -48,7 +48,8 @@ const store = (function(){
     findAndUpdate,
     toggleCheckedFilter,
     setSearchTerm,
-    setItemIsEditing,
+    setItemIsEditing
   };
-  
-}());
+})();
+
+export default store;
